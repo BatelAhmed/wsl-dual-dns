@@ -1,7 +1,6 @@
 # 🧠 wsl-dns-fix
 
 **A script to fix DNS resolution and DISPLAY forwarding in WSL2 on Windows 10**  
-_...because running GUI apps on WSL2 without WSLg feels like you're bargaining with the kernel gods._
 
 ---
 
