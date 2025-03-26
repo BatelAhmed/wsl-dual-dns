@@ -1,11 +1,11 @@
-# wsl-dns-fix
+# 🧠 wsl-dns-fix
 
 **A script to fix DNS resolution and DISPLAY forwarding in WSL2 on Windows 10**  
 _...because running GUI apps on WSL2 without WSLg feels like you're bargaining with the kernel gods._
 
 ---
 
-## What This Script Does
+## ✨ What This Script Does
 
 This script:
 
@@ -17,6 +17,7 @@ This script:
 
 ---
 
+## 🧪 Why This Exists
 
 > Because running GUI apps on WSL2 in Windows 10 is like teaching a fish to ride a bicycle.
 
@@ -45,3 +46,7 @@ Yes, this script works.
    ```bash
    git clone https://github.com/yourname/wsl-dns-fix.git
    cd wsl-dns-fix
+
+⚠️ This script is for WSL2 on Windows 10.
+If you're on Windows 11, you probably don't need this.
+
