@@ -2,6 +2,10 @@
 
 HOST_IP=$(ip route | grep default | awk '{print $3}')
 
+if ! nc -z $HOST_IP 6000; then
+echo "[WARNING] X Server might not be running on Windows. Port 6000 not open."
+fi
+
 if [[ -z "$HOST_IP" ]]; then
   echo "[ERROR] Could not detect Windows host IP."
   exit 1
